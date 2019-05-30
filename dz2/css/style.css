@@ -1,1 +1,41 @@
+ul[class*=dialog] li{
+    list-style-type: none;
+    font-size:20px;
+    font-family:'Anton', sans-serif;
+    padding-left: 10%;
+    padding-right:5%;
+}ul[class*=dialog] li::before{
+    content:'- ';
+}
+figure img{
+    width: 90%;
+    padding-left:100px;
+}
+p{
+    padding-left: 5%;
+    padding-right:5%;
+    font-family:'Roboto', sans-serif;
+}
 
+a:hover{
+    color:red;
+}
+a:visited{
+    color:blue;
+}
+em{
+   
+    font-family: 'Inconsolata', monospace;
+}
+ul li{
+    font-size: 30px
+}
+h2{
+    text-align: center;
+    font-size:50px;
+}
+h1{
+    text-align: center;
+    font-size:100px;
+    font-style:italic;
+}
