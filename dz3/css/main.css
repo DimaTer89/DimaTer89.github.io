@@ -1,1 +1,67 @@
-
+body, *
+{
+    padding:0;
+    margin:0;
+}
+.top{
+    padding:30px auto;
+    font-size:30.5px;
+    background-color:goldenrod;
+    background-image: url("../img/ava7patterns_pattern_1740.png");
+}
+.indent{
+    width: 10px;
+}
+nav{
+    padding:10px;
+}
+nav li{
+    display: inline;
+    overflow: hidden;
+    list-style-type: none;
+    font-size: 17px;
+    padding:10px;
+}
+nav a{
+    text-decoration: none;
+    border-radius:25%;
+    border-top:2px solid red;
+    border-bottom:2px solid transparent;
+    color:forestgreen;
+    text-transform: uppercase;
+}
+nav a:hover{
+    border-top:2px solid transparent;
+    border-bottom:2px solid blueviolet;
+    text-decoration:underline;
+    border-radius:25%;
+}
+h2{
+    width: 100%;
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align:center;
+}
+figure img{
+    width: 100%;
+    image-orientation: flip;
+}
+.text{
+    padding-left:20%;
+    padding-right:20%;
+    background-color: aqua;
+    background-image: url("../img/ava7patterns_pattern_883.png");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+}
+.dialog li{
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}.dialog li:before{
+    content: "- ";
+}
+em{
+    font-weight: bolder;
+}
