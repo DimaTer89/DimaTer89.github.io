@@ -1,1 +1,67 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+   max-width: inherit;
+   overflow: hidden;
+}
+.header{
+    height: 178px;
+    width: inherit;
+    background-color: red;
+    background-image: url("http://dgdesign.ru/uploads/posts/2018-02/1517852890_shapka-sayta-logicheskie-igry-2334521741-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header li{
+    list-style-type: none;
+    text-decoration: none;
+    float:left;
+    margin:55px 15px 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    font-size:35px;
+}
+.header li[class*="li_img"]
+{
+    list-style-type: none;
+    float: right;
+    margin:55px 45px 0 0;
+}
+.header li a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header li a:hover{
+    text-decoration: underline;
+    color:darkgrey;
+}
+.footer{
+    width: inherit;
+    height: 65px;
+    background-color: #d1d1d1;
+}
+.footer p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size:30px;
+     text-align: center;
+}
+.main{
+    margin:20px;
+}
+.clearFix::after{
+    content:"";
+    display:block; 
+    clear:both;
+}
+.main,* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    font-weight: bold;
+    font-size:45px;
+}
+.main input{
+    border-radius: 5px;
+    border-color:darkcyan;
+}
