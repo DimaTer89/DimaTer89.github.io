@@ -1,6 +1,6 @@
 .bg_my_nav{
    font-size:25px;
-   background-color: aqua;
+   background-color:rgb(6, 83, 32);
 }
 .img{
     margin-left:20px;
@@ -15,9 +15,7 @@
     overflow: hidden;
 }
 body{
-    background-image: url("../img/ava7patterns1.png");
-    background-repeat: repeat;
-    
+    background-color:rgb(59, 230, 187);
 }
 .about_me_info{
     margin-left: 10px;
@@ -65,29 +63,34 @@ h5{
     margin-left:40px;
 }
 .icons ul{
-    margin-left:550px;
+    margin-left:680px;
+    margin-top:15px;
 }
 h2{
     text-align:center;
     font-size:40px;
     letter-spacing:15px;
 }
-.skills ul li{
+/* .skills ul li{
     list-style-type: none;
     background-image: url("/img/arrow.png");
     background-repeat: no-repeat;
     background-position-y:25px;
     background-position-x:60px;
-}
-.main{
+} */
+/* .main{
     font-size:40px;
     letter-spacing: 10px;
 }
 .main li{
     padding-left:90px;
-}
+} */
 .btn{
     letter-spacing: 20px;
     font-size:24px;
+}
+.card_plus{
+    font-size:10px;
+    letter-spacing:1px;
 }
 
