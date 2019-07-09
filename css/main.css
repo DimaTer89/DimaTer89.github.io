@@ -62,29 +62,11 @@ h5{
     display: inline;
     margin-left:40px;
 }
-.icons ul{
-    margin-left:680px;
-    margin-top:15px;
-}
 h2{
     text-align:center;
     font-size:40px;
     letter-spacing:15px;
 }
-/* .skills ul li{
-    list-style-type: none;
-    background-image: url("/img/arrow.png");
-    background-repeat: no-repeat;
-    background-position-y:25px;
-    background-position-x:60px;
-} */
-/* .main{
-    font-size:40px;
-    letter-spacing: 10px;
-}
-.main li{
-    padding-left:90px;
-} */
 .btn{
     letter-spacing: 20px;
     font-size:24px;
@@ -93,4 +75,53 @@ h2{
     font-size:10px;
     letter-spacing:1px;
 }
-
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    width: 8em;
+    height: 8em;
+}
+.group{
+    padding-left: 770px;
+}
+@media (max-width:1900px){
+    .group{
+        padding-left: 700px;
+    }
+}
+@media (max-width:1820px){
+    .group{
+        padding-left: 600px;
+    }
+}
+ @media (max-width:1720px){
+    .group{
+        padding-left: 500px;
+    }
+}
+@media (max-width:1620px){
+    .group{
+        padding-left: 400px;
+    }
+}
+@media (max-width:1520px){
+    .group{
+        padding-left: 300px;
+    }
+}
+@media (max-width:1420px){
+    .group{
+        padding-left: 200px;
+    }
+}
+@media (max-width:1320px){
+    .group{
+        padding-left: 100px;
+    }
+}
+@media (max-width:1220px){
+    .group{
+        padding-left: 5px;
+    }
+    .bg_my_nav{
+        font-size:20px;
+    }
+}
